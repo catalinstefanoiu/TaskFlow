@@ -5,8 +5,11 @@ TaskFlow is a simple and intuitive To-Do List application built with Angular and
 ## Features
 
 - Add new tasks to your to-do list
+![image](https://github.com/user-attachments/assets/04821cfb-8c74-4f63-ae68-5fa1aec98a39)
 - Mark tasks as done once completed
+![image](https://github.com/user-attachments/assets/6497243a-aad3-4fdf-a998-d7c4ae5883bf)
 - Delete tasks that are no longer needed
+![image](https://github.com/user-attachments/assets/259bead9-9e74-4320-9603-6479b9df94e2)
 - Data persistence using Local Storage
 - Modern UI built with Angular Material
 
@@ -27,6 +30,8 @@ The application has two main routes:
    - Event handling
    - Angular Material UI components
    - Angular Router for navigation
+![image](https://github.com/user-attachments/assets/690f8021-6a9a-48de-8977-385419bd53c9)
+
 
 ## Technologies Used
 
