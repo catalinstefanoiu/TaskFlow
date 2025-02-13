@@ -40,7 +40,10 @@ The application has two main routes:
 Clone the repository:  
 ```sh
 git clone https://github.com/catalinstefanoiu/TaskFlow.git
+sh
 
+Navigate to the project folder:
+```sh
 cd TaskFlow
 
 npm install
