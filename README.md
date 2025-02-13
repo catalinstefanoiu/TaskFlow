@@ -40,15 +40,18 @@ The application has two main routes:
 Clone the repository:  
 ```sh
 git clone https://github.com/catalinstefanoiu/TaskFlow.git
-
+``` 
 Navigate to the project folder:
+```sh
 cd TaskFlow
-
+```
 Install dependencies:
+```sh
 npm install
-
+```
 Run the application:
+```sh
 ng serve
-
+```
 The app will be available at http://localhost:4200/
 
