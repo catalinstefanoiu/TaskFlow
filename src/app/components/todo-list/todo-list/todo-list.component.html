@@ -1,0 +1,24 @@
+<h2>My List</h2>  
+
+<!-- Formular pentru adăugarea unei sarcini noi -->
+<mat-form-field>
+    <input matInput #newTodo placeholder="Add new task" 
+    (input)="validateInput(newTodo.value)" />
+</mat-form-field>
+  
+
+<button mat-stroked-button class="square-button"
+(click)="addTodo(newTodo.value);
+newTodo.value = ''" [disabled]="isInvalid">Add
+</button>
+
+<mat-list role="list">
+    <mat-list-item role="listitem" *ngFor="let todo of todos" class="todo-item">
+      <div class="todo-container">
+        <app-todo-item [todo]="todo"></app-todo-item>
+        <button mat-icon-button (click)="deleteTodo(todo.id)">
+          <mat-icon>delete</mat-icon>
+        </button>
+      </div>
+    </mat-list-item>
+</mat-list>

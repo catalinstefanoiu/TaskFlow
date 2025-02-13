@@ -1,0 +1,11 @@
+<!-- src/app/components/todo-item/todo-item.component.html -->
+<li>
+    <!-- Checkbox pentru marcarea sarcinii ca finalizată -->
+    <input
+      type="checkbox"
+      [checked]="todo.completed"
+      (change)="toogleCompletion()"
+    />
+    <!-- Titlul sarcinii -->
+    <span [class.completed]="todo.completed">{{ todo.title }}</span>
+  </li>

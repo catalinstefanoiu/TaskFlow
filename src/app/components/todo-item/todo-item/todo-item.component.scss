@@ -1,0 +1,39 @@
+.completed {
+    text-decoration: line-through;
+}
+
+/* todo-item.component.scss */
+li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    }
+  
+    input[type="checkbox"] {
+      margin-right: 10px;
+      width: 18px;
+      height: 18px;
+      cursor: pointer;
+      accent-color: #3f51b5; /* Change checkbox color */
+    }
+  
+    span {
+      flex-grow: 1;
+      font-size: 16px;
+      color: #333;
+  
+      &.completed {
+        text-decoration: line-through;
+        color: #888;
+      }
+    }
+  }

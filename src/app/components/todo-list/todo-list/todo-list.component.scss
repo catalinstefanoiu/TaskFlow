@@ -1,0 +1,94 @@
+.square-button {
+    border-radius: 0;
+}
+ 
+  /*.todo-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    width: 100%; 
+  }*/
+
+  /* todo-list.component.scss */
+h2 {
+    text-align: center;
+    color: #3f51b5;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  mat-form-field {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+  
+    input {
+      font-size: 16px;
+      padding: 10px;
+      border-radius: 4px;
+      border: 1px solid #ddd;
+      transition: border-color 0.3s ease;
+  
+      &:focus {
+        border-color: #3f51b5;
+        outline: none;
+      }
+    }
+  }
+  
+  button.square-button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #3f51b5;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #303f9f;
+    }
+  
+    &:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+  }
+  
+  mat-list {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+    mat-list-item {
+      padding: 10px;
+      border-bottom: 1px solid #eee;
+  
+      &:last-child {
+        border-bottom: none;
+      }
+  
+      .todo-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+  
+        button {
+          color: #ff4081;
+          transition: color 0.3s ease;
+  
+          &:hover {
+            color: #c2185b;
+          }
+        }
+      }
+    }
+  }
