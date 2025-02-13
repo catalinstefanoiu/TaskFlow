@@ -40,6 +40,7 @@ The application has two main routes:
 Clone the repository:
 ```sh
 git clone https://github.com/catalinstefanoiu/TaskFlow.git
+
 ```sh
 cd TaskFlow
 ```sh
